@@ -1,0 +1,160 @@
+2014/04/17 07:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CApplication->run()
+#3 D:\wamp\www\yii-1.1.14\framework\cli\commands\ShellCommand.php(78): require('D:\wamp\www\tra...')
+#4 D:\wamp\www\yii-1.1.14\framework\console\CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#5 D:\wamp\www\yii-1.1.14\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#7 D:\wamp\www\yii-1.1.14\framework\yiic.php(33): CApplication->run()
+#8 D:\wamp\www\yii-1.1.14\framework\yiic(14): require_once('D:\wamp\www\yii...')
+#9 {main}
+REQUEST_URI=/index.php
+---
+2014/04/17 07:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CApplication->run()
+#3 D:\wamp\www\yii-1.1.14\framework\cli\commands\ShellCommand.php(78): require('D:\wamp\www\tra...')
+#4 D:\wamp\www\yii-1.1.14\framework\console\CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#5 D:\wamp\www\yii-1.1.14\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#7 D:\wamp\www\yii-1.1.14\framework\yiic.php(33): CApplication->run()
+#8 D:\wamp\www\yii-1.1.14\framework\yiic(14): require_once('D:\wamp\www\yii...')
+#9 {main}
+REQUEST_URI=/index.php
+---
+2014/04/17 07:44:42 [error] [php] include(Controller.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(354): require()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+#6 D:\wamp\www\yii-1.1.14\framework\cli\commands\ShellCommand.php(78): require()
+#7 D:\wamp\www\yii-1.1.14\framework\console\CConsoleCommandRunner.php(71): ShellCommand->run()
+#8 D:\wamp\www\yii-1.1.14\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#10 D:\wamp\www\yii-1.1.14\framework\yiic.php(33): CConsoleApplication->run()
+#11 D:\wamp\www\yii-1.1.14\framework\yiic(14): require_once()
+REQUEST_URI=/index.php
+2014/04/17 07:45:03 [error] [php] include(Controller.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(354): require()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\SiteController.php (4)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
+2014/04/17 07:45:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in D:\wamp\www\yii-1.1.14\framework\web\CController.php:878
+Stack trace:
+#0 D:\wamp\www\yii-1.1.14\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\SiteController.php(32): CController->render('index')
+#2 D:\wamp\www\yii-1.1.14\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CApplication->run()
+#10 D:\wamp\www\yii-1.1.14\framework\cli\commands\ShellCommand.php(78): require('D:\wamp\www\tra...')
+#11 D:\wamp\www\yii-1.1.14\framework\console\CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#12 D:\wamp\www\yii-1.1.14\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#13 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#14 D:\wamp\www\yii-1.1.14\framework\yiic.php(33): CApplication->run()
+#15 D:\wamp\www\yii-1.1.14\framework\yiic(14): require_once('D:\wamp\www\yii...')
+#16 {main}
+REQUEST_URI=/index.php
+---
+2014/04/17 08:25:44 [error] [php] file_get_contents(D:\wamp\www\traveltoucity\src\webserviceAPI\protected/vender/openssl/wcp_rtn.crt): failed to open stream: No such file or directory (D:\wamp\www\traveltoucity\src\webserviceAPI\protected\components\OpenSSL.php:13)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(5): analyzeRequest()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\components\OpenSSL.php (13)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\components\Functions.php (7)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (5)
+2014/04/17 08:27:28 [error] [php] include(MainOperation.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(6): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (6)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
+2014/04/17 08:27:42 [error] [php] include(MainOperation.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(6): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (6)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
+2014/04/17 08:27:57 [error] [php] include(MainOperation.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(6): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (6)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
+2014/04/17 08:28:42 [error] [php] include(MainOperation.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(6): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (6)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
+2014/04/17 08:28:43 [error] [php] include(MainOperation.php): failed to open stream: No such file or directory (D:\wamp\www\yii-1.1.14\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php(6): spl_autoload_call()
+#1 D:\wamp\www\yii-1.1.14\framework\web\actions\CAction.php(76): TestAction->run()
+#2 D:\wamp\www\yii-1.1.14\framework\web\CController.php(308): TestAction->runWithParams()
+#3 D:\wamp\www\yii-1.1.14\framework\web\CController.php(286): MainController->runAction()
+#4 D:\wamp\www\yii-1.1.14\framework\web\CController.php(265): MainController->runActionWithFilters()
+#5 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(282): MainController->run()
+#6 D:\wamp\www\yii-1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp\www\yii-1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\wamp\www\traveltoucity\src\webserviceAPI\index.php(13): CWebApplication->run()
+REQUEST_URI=/traveltoucity/src/webserviceAPI/api/1001
+in D:\wamp\www\traveltoucity\src\webserviceAPI\protected\controllers\main\TestAction.php (6)
+in D:\wamp\www\traveltoucity\src\webserviceAPI\index.php (13)
