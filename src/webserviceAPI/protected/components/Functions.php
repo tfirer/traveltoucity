@@ -4,7 +4,7 @@ class Functions {
     public static function analyzeRequest()
     {
         // OpenSSL valid
-        if (OpenSSL::checkSignMsg()) {
+        if (! OpenSSL::checkSignMsg()) {
             return '';
         }
 
